@@ -3,10 +3,10 @@
 using namespace std;
 
 int counter2 = 8;
+int counter = 0;
 
 int staticCheck(int any)
 {
-    static int counter = 0;
     counter = counter + any;
     counter2++;
     return counter;
