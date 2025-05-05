@@ -16,5 +16,6 @@ int f2()
 int main()
 {
     int p = f1() + f2();
-    cout << x;
+    cout << x << endl;
+    cout << p << endl;
 }
