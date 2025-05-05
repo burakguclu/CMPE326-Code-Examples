@@ -17,4 +17,5 @@ int main()
     int x = 2, y = 5;
     int i = f2(x) + f2(y) * (f2(x) - f2(x));
     cout << "i=" << i << endl;
+    cout << "g=" << g << endl;
 }
